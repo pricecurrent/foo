@@ -1106,7 +1106,7 @@
     {
       "scope": "support.class",
       "settings": {
-        "foreground": "#B2AB85"
+        "foreground": "#87868b"
       }
     },
     {
@@ -1175,7 +1175,7 @@
       }
     },
     {
-      "scope": "variable.function",
+      "scope": ["variable.function"],
       "settings": {
         "foreground": "#b2ab85"
       }
@@ -1193,6 +1193,19 @@
       ],
       "settings": {
         "foreground": "#b898dd"
+      }
+    },
+
+    {
+      "scope": "entity.name.type.class.php",
+      "settings": {
+        "foreground": "#b2ab85"
+      }
+    },
+    {
+      "scope": ["storage.type.class.php", "keyword.other.use.php"],
+      "settings": {
+        "foreground": "#FF7DA3"
       }
     }
   ]
