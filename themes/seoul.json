@@ -1,4 +1,5 @@
 {
+	"name": "Seoul Dark",
 	"$schema": "vscode://schemas/color-theme",
 	"type": "dark",
 	"colors": {
@@ -51,7 +52,7 @@
 		"terminal.ansiRed": "#e12672",
 		"terminal.ansiYellow": "#e4c203",
 		"terminal.background": "#484848",
-		"terminal.foreground": "#d9d9d9"
+		"terminal.foreground": "#d9d9d9",
 	},
 	"tokenColors": [
 		{
@@ -459,7 +460,7 @@
 		{
 			"scope": "string",
 			"settings": {
-				"foreground": "#98BCBD"
+				"foreground": "#98BCBD",
 			}
 		},
 		{
@@ -661,13 +662,13 @@
 			"scope": "entity.name.tag.block.any.html, entity.name.tag.tsx, entity.name.tag.jsx, support.class.component.tsx, support.class.component.jsx, entity.name.tag.structure.any.html, entity.name.tag.inline.any.html, entity.name.tag.html",
 			"settings": {
 				"foreground": "#a8d4aa",
+				// "foreground": "#efb78a",
 				"fontStyle": "bold"
 			}
 		},
 		{
 			"scope": "entity.other.attribute-name.html, entity.other.attribute-name.id.html, entity.other.attribute-name.tsx, entity.other.attribute-name.jsx",
 			"settings": {
-				"foreground": "#DFBC72",
 				"foreground": "#9b9b9b",
 				"fontStyle": "bold"
 			}
